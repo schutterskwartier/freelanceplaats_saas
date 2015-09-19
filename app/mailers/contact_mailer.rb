@@ -1,4 +1,4 @@
-class ContactMailer < ActionMailer:base
+class ContactMailer < ActionMailer::base
     default to: 'dennis@schutterskwartier.nl'
 
     def cantact_email(name, email, body)
